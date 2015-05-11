@@ -1,0 +1,13 @@
+package cmm01.var;
+
+public class No03_EscapeDeomo {
+	public static void main(String[] args) {
+   int kor; //선언 Declartion
+   kor =90;//할당 Allocation
+   int eng=85, sum=0;
+   sum = kor +eng;
+   System.out.print("성적처리 \n");
+   System.out.println("국어 \t 영어  \t 합계");
+   System.out.println(kor+"\t"+eng +"\t"+sum);
+	}
+}

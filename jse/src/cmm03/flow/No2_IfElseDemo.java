@@ -14,7 +14,7 @@ public class No2_IfElseDemo {
 		}else{
 			System.out.println("가장 큰 수는 A 값만 "+c+"입니다. ");
 		}
-	}
+	} 
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

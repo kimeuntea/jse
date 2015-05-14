@@ -1,12 +1,13 @@
-package cmm03.flow;
+package oop01.game;
 
-public class No08_NumberMatchVo {
-	int player, com, count;
+public class NumberMatchVo {
+	private int player, com, count;
+
 	public int getPlayer() {
 		return player;
 	}
+
 	public void setPlayer(int player) {
-		
 		if(player < 1 || player >5){
 			System.out.println("1부터 5까지 정수만 입력해야 합니다.");
 		}else{
@@ -28,6 +29,6 @@ public class No08_NumberMatchVo {
 
 	public void setCount(int count) {
 		this.count = count;
-	}
+	} 
 	
 }

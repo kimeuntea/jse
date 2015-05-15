@@ -2,7 +2,7 @@ package cmm03.flow;
 
 import java.util.Scanner;
 
-import oop01.game.NumberMatchService;
+import oop01.encapsle.NumberMatchService;
 
 public class No08_NumberMatch {
 	public static void main(String[] args) {

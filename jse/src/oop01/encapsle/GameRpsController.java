@@ -1,0 +1,22 @@
+package oop01.encapsle;
+
+import java.util.Scanner;
+
+public class GameRpsController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub]
+		Scanner scanner =new Scanner(System.in);
+		GameRpsService service = new GameRpsService();
+		
+    System.out.println("가위바위보 게임을 시작합니다.");
+    int playerValue =scanner.nextInt();
+    service.logic(playerValue);
+    int com =  service.Showcomvalue();
+    System.out.println("당신은"+ playerValue +"을 냇습니다.");
+    System.out.println("컴퓨터는"+ com +"을 내습니다.");
+    System.out.println(service.game2(playerValue,com));
+	}
+	
+//// 1 가위 2 바위 3 보
+}

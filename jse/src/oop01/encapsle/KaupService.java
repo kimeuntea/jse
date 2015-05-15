@@ -1,4 +1,4 @@
-package oop01.game;
+package oop01.encapsle;
 
 import java.util.Scanner;
 

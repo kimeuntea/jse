@@ -1,4 +1,4 @@
-package oop01.encapsle;
+package oop02.encapsle;
 
 public class NumberMatchService {
 	static int i;

@@ -1,4 +1,4 @@
-package oop01.encapsle;
+package oop02.encapsle;
 
 public class NumberMatchVo {
 	private int player, com, count;

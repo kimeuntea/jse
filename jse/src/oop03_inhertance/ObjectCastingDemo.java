@@ -4,8 +4,7 @@ public class ObjectCastingDemo {
 	public static void main(String[] args) {
    //일반적인 객체 생성
 		Aclass a = new Aclass();
-		Bclass b= new Bclass();
-	
+		Bclass b= new Bclass();	
 	    Object o = new Bclass();
 	    
 		//부모 타입 = new 자식타입

@@ -17,9 +17,15 @@ public class LottoServiceImpl implements LottoService {
 				//중족되는 않은 숫자이면 
 				//lottos[count][i]=num의
 				//형태로 들어가게됩니다. 
-				/*for (  i= 0;  < lottos.length; i++) {
-					lottos[i][j];
-				} */
+				for (  i= 0; i < count; i++) {
+					for (int j = 0; j < 6; j++) {
+						lottos[count][j] = getRandomNumber();
+						if(lottos[count][j] == (lottos[count][j+1])){
+							lottos[count][j+1] = getRandomNumber();
+						}
+						
+					}
+				} 
 			}
 		}
 	}
